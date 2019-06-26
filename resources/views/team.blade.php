@@ -1,5 +1,9 @@
 <section id="team-section">
 
+<br>
+<br>
+<br>
+
     <h3>TEAM</h3>
 
     <div class="container">

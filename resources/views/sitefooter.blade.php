@@ -5,13 +5,15 @@
                     LINKS
                 </p>
                 <p class="mbr-text mbr-fonts-style mbr-links-column display-7">
-                    <a href="#" class="text-white">About Us</a>
-                    <br><a href="#" class="text-white">Services</a>
-                    <br><a href="#" class="text-white">Recent Projects</a>
-                    <br><a href="#" class="text-white">Team</a>
+                    <a href="#aboutus-section" class="text-white">About Us</a>
+                    <br><a href="#services-section" class="text-white">Services</a>
+                    <br><a href="#recentprojects-section" class="text-white">Recent Projects</a>
+                    <br><a href="#team-section" class="text-white">Team</a>
+                    <br><a href="#contact-section" class="text-white">Contact</a>
                 </p>
         </div>
-        <div class="footer-contact">
+        <!--
+            <div class="footer-contact">
             <form>
 
                 <h6>Contact us:</h6>
@@ -28,6 +30,7 @@
                     
             </form>
         </div>
+        -->
     </div>
 
     <div class="footer-bottom">

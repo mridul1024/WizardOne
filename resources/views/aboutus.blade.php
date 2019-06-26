@@ -1,4 +1,9 @@
 <section id="aboutus-section">
+
+<br>
+<br>
+<br>
+
 <h3>ABOUT US</h3>
 <p>We are a bunch of geeks hailing from the North East who came together to create applications for fun.
      At Wizard One, we work everyday to serve our clients. Our team consists of freelancers 

@@ -15,22 +15,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/aboutus', function(){
-    return view('aboutus');
-});
-
-Route::get('/services', function(){
-    return view('services');
-});
-
-Route::get('/recentprojects', function(){
-    return view('recentprojects');
-});
-
-Route::get('/team', function(){
-    return view('team');
-});
-
-Route::get('/contact', function(){
-    return view('contact');
-});
+Route::resource('messages','MessageController');

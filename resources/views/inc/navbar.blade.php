@@ -5,11 +5,11 @@
 -->
 <img id="nav_img" src="/images/wizardone_nav.png" alt="nav_banner" style="width: 27px; height: 27px;">
     </a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">About Us</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Services</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Recent Projects</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Team</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
+    <a class="py-2 d-none d-md-inline-block" href="#top">Home</a>
+    <a class="py-2 d-none d-md-inline-block" href="#aboutus-section">About Us</a>
+    <a class="py-2 d-none d-md-inline-block" href="#services-section">Services</a>
+    <a class="py-2 d-none d-md-inline-block" href="#recentprojects-section">Recent Projects</a>
+    <a class="py-2 d-none d-md-inline-block" href="#team-section">Team</a>
+    <a class="py-2 d-none d-md-inline-block" href="#contact-section">Contact</a>
   </div>
 </nav>
