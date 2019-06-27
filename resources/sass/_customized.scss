@@ -1,14 +1,14 @@
-nav{
+nav {
     background: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: none;
     color: black;
 }
 
-#welcome-text{
+#welcome-text {
     margin: auto;
     margin-top: 60px;
     animation: typing-text 2s steps(22), blink-border 1s infinite;
@@ -18,21 +18,21 @@ nav a:hover{
     white-space: nowrap;
 }
 
-.mouse{
+.mouse {
     position: absolute;
     margin-top: 100px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
-.scrolldot{
+.scrolldot {
     width: 50px;
     height: 100px;
     border: 4px solid black;
     border-radius: 60px;
 }
 
-.scrolldot:before{
+.scrolldot:before {
     content: "";
     position: absolute;
     width: 10px;
@@ -45,59 +45,60 @@ nav a:hover{
     animation: scrollanimation 2s infinite;
 }
 
-@keyframes scrollanimation{
-    from{
+@keyframes scrollanimation {
+    from {
         opacity: 1;
         margin-top: 10px;
     }
-    to{
+    to {
         opacity: 0;
         margin-top: 80px;
     }
 }
 
-#aboutus-section p{
+#aboutus-section p {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
 }
 
-#services-section{
-    background: url('/images/gradient.jpg');
+#services-section {
+    background: url("/images/gradient.jpg");
     background-size: cover;
 }
 
-#services-section h3{
-    color:white;
+#services-section h3 {
+    color: white;
 }
 
-@keyframes blink-border{
-    from{
+@keyframes blink-border {
+    from {
         border-color: transparent;
     }
 
-    to{
-        border-color:black;
+    to {
+        border-color: black;
     }
 }
 
-@keyframes typing-text{
-    from{
+@keyframes typing-text {
+    from {
         width: 0;
     }
 
-    to{
+    to {
         width: 22ch;
     }
 }
 
-h3, p{
+h3,
+p {
     margin: auto;
     margin-top: 5%;
     text-align: center;
 }
 
-#brand-logo{
+#brand-logo {
     display: block;
     margin-top: 100px;
     margin-left: auto;
@@ -106,7 +107,7 @@ h3, p{
     height: 260px;
 }
 
-.card{
+.card {
     margin: auto;
     margin-top: 5%;
     margin-left: 3%;
@@ -116,10 +117,10 @@ h3, p{
     height: 250px;
     float: left;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-img-top{
+.card-img-top {
     font-size: 50px;
     padding: 10px;
 }
@@ -131,11 +132,11 @@ h3, p{
 }
 */
 
-#recentprojects-section h3{
+#recentprojects-section h3 {
     margin-bottom: 5%;
 }
 
-#recentprojects-section img{
+#recentprojects-section img {
     width: 150px;
     height: 150px;
     border-radius: 2%;
@@ -144,10 +145,10 @@ h3, p{
     margin-right: 2%;
     margin-bottom: 30px;
     float: left;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#team-section img{
+#team-section img {
     width: 200px;
     height: 200px;
     padding: 2%;
@@ -155,30 +156,30 @@ h3, p{
     border-radius: 50%;
 }
 
-#team-section figure{
+#team-section figure {
     margin-left: 5px;
     margin-right: 5px;
 }
 
-#team-section figcaption{
+#team-section figcaption {
     text-align: center;
 }
 
-#team-section h3{
+#team-section h3 {
     margin-bottom: 5%;
 }
 
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-#card-wrapper{
+#card-wrapper {
     width: 100%;
     height: 300px;
     padding: 30px;
 }
 
-footer{
+footer {
     width: 100%;
     height: 400px;
     background: #292626;
@@ -187,22 +188,21 @@ footer{
     box-shadow: 0 -5px 5px -5px #333;
 }
 
-.footer-content{
+.footer-content {
     width: 100%;
     height: 350px;
 }
 
-.footer-links{
+.footer-links {
     width: 30%;
     height: 350px;
     margin-top: 0;
     text-align: center;
     padding-top: 80px;
     position: absolute;
-
 }
 
-.footer-contact{
+.footer-contact {
     padding-top: 30px;
     height: 350px;
     width: 50%;
@@ -210,12 +210,11 @@ footer{
     margin-left: 50%;
 }
 
-footer h6{
+footer h6 {
     margin-left: 30%;
 }
 
-
-.footer-bottom{
+.footer-bottom {
     width: 100%;
     height: 50px;
     position: absolute;
@@ -224,14 +223,14 @@ footer h6{
     padding-top: 15px;
 }
 
-#contact-section{
+#contact-section {
     padding: 40px;
     align-content: center;
 }
 
-.contactform{
+.contactform {
     width: 600px;
-    height: 620px;
+    height: 700px;
     padding: 10px;
     display: block;
     margin-left: auto;
@@ -239,17 +238,17 @@ footer h6{
     background: white;
     color: black;
     text-align: center;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
-.textfield{
+.textfield {
     width: 100%;
     margin: 8px 0;
     padding: 12px 18px;
 }
 
-label{
+label {
     display: block;
     text-align: left;
     color: #333;
@@ -257,11 +256,12 @@ label{
     font-weight: 100;
 }
 
-#contact-section h3{
+#contact-section h3 {
     margin-bottom: 5%;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     outline: 0;
     border-bottom: 1px solid black;
@@ -269,23 +269,192 @@ input, textarea{
     border: none;
 }
 
-textarea{
+textarea {
     height: 100px;
 }
 
-#contact-section a{
+#contact-section button {
     width: 70%;
 }
 
-.form-group{
+.form-group {
     text-align: center;
 }
 
-#contact-section{
-    background: url('/images/gradient.jpg');
+#contact-section {
+    background: url("/images/gradient.jpg");
     background-size: cover;
 }
 
-hr{
+hr {
     width: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+    .card {
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5%;
+        width: 220px;
+        height: 250px;
+        float: left;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-bottom: 5%;
+        width: 292px;
+        height: 250px;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    #card-wrapper {
+        width: 100%;
+        height: 850px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 638px){
+    #brand-logo {
+        display: block;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110px;
+        height: 100px;
+    }
+
+    #welcome-text {
+        margin: auto;
+        margin-top: 60px;
+        font-size: 25px;
+        animation: typing-text 2s steps(22), blink-border 1s infinite;
+        border-right: 3px solid black;
+        font-family: monospace;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .contactform {
+        width: 500px;
+        height: 700px;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+        color: black;
+        text-align: center;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    #brand-logo {
+        display: block;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 180px;
+    }
+
+    #welcome-text {
+        margin: auto;
+        margin-top: 60px;
+        font-size: 25px;
+        animation: typing-text 2s steps(22), blink-border 1s infinite;
+        border-right: 3px solid black;
+        font-family: monospace;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .card {
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 19%;
+        margin-right: 19%;
+        margin-bottom: 5%;
+        width: 292px;
+        height: 250px;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .contactform {
+        width: 400px;
+        height: 700px;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+        color: black;
+        text-align: center;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width: 358px){
+
+    #brand-logo {
+        display: block;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110px;
+        height: 100px
+    }
+
+    #welcome-text {
+        margin: auto;
+        margin-top: 60px;
+        font-size: 25px;
+        animation: typing-text 2s steps(22), blink-border 1s infinite;
+        border-right: 3px solid black;
+        font-family: monospace;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .card {
+        margin: auto;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        width: 250px;
+        height: 290px;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .contactform {
+        width: 270px;
+        height: 700px;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+        color: black;
+        text-align: center;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+
 }

@@ -35,7 +35,25 @@ class MessageController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //validate
+        $request->validate([
+            'first_name' => 'required',
+            'last_name' => 'required',
+            'user_email' => 'required',
+            'user_message' => 'required'
+        ]);
+
+        $store_message = new message();
+
+        $store_message->firstname = request('first_name');
+        $store_message->lastname = request('last_name');
+        $store_message->email = request('user_email');
+        $store_message->message = request('user_message');
+
+        $store_message->save();
+
+        return redirect('/#contact-section')->with('success','Message sent!');
+
     }
 
     /**

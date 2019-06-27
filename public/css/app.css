@@ -10913,7 +10913,7 @@ footer h6 {
 
 .contactform {
   width: 600px;
-  height: 620px;
+  height: 700px;
   padding: 10px;
   display: block;
   margin-left: auto;
@@ -10956,7 +10956,7 @@ textarea {
   height: 100px;
 }
 
-#contact-section a {
+#contact-section button {
   width: 70%;
 }
 
@@ -10971,6 +10971,176 @@ textarea {
 
 hr {
   width: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+  .card {
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5%;
+    width: 220px;
+    height: 250px;
+    float: left;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 5%;
+    width: 292px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #card-wrapper {
+    width: 100%;
+    height: 850px;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 638px) {
+  #brand-logo {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    height: 100px;
+  }
+
+  #welcome-text {
+    margin: auto;
+    margin-top: 60px;
+    font-size: 25px;
+    -webkit-animation: typing-text 2s steps(22), blink-border 1s infinite;
+            animation: typing-text 2s steps(22), blink-border 1s infinite;
+    border-right: 3px solid black;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .contactform {
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #brand-logo {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 180px;
+  }
+
+  #welcome-text {
+    margin: auto;
+    margin-top: 60px;
+    font-size: 25px;
+    -webkit-animation: typing-text 2s steps(22), blink-border 1s infinite;
+            animation: typing-text 2s steps(22), blink-border 1s infinite;
+    border-right: 3px solid black;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .card {
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-bottom: 5%;
+    width: 292px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .contactform {
+    width: 400px;
+    height: 700px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 358px) {
+  #brand-logo {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    height: 100px;
+  }
+
+  #welcome-text {
+    margin: auto;
+    margin-top: 60px;
+    font-size: 25px;
+    -webkit-animation: typing-text 2s steps(22), blink-border 1s infinite;
+            animation: typing-text 2s steps(22), blink-border 1s infinite;
+    border-right: 3px solid black;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .card {
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    width: 250px;
+    height: 290px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .contactform {
+    width: 270px;
+    height: 700px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    color: black;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
 }
 
 /*!
